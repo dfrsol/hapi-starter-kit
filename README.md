@@ -94,8 +94,7 @@ test/
 |   ├── actions_spec.js
 |   └── app_browser.js
 ├── fixtures/
-|   ├── mockAllGoals.js
-│   └── goals.js
+│   └── students.js
 └── lib/
    ├── handlers/
    |   ├── api_spec.js
