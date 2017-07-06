@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    {{> head }}
+</head>
+<body>
+    <div id="container">
+
+        {{> header }}
+
+        <main id="content">
+            <!-- MAIN_CONTENT_BEGIN -->
+            {{{ content }}}
+            <!-- MAIN_CONTENT_END -->
+        </main>
+
+        {{> footer }}
+    </div>
+
+    <script ref="client-script" src="{{app}}"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "presets": ["babel-preset-env","react","stage-0"],
+  "plugins": ["add-module-exports"],
+  "env": {
+    "development": {
+      "presets": ["react-hmre"]
+    },
+    "test": {
+      "plugins": ["istanbul"]
+    }
+  },
+  "retainLines": true
+}

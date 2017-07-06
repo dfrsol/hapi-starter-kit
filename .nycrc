@@ -1,0 +1,24 @@
+{
+  "all": true,
+  "cache": true,
+  "extension": [".js"],
+  "exclude": [
+    "test/**",
+    "dist/**",
+    "coverage/**",
+    "configs/**",
+    "gulp-tasks/**",
+    "lib/start.js",
+    "gulpfile.js",
+    "index.js"
+  ],
+  "instrument": false,
+  "reporter": [
+    "json"
+  ],
+  "report-dir": "./coverage/unit",
+  "require": [
+    "babel-register"
+  ],
+  "sourceMap": false
+}
