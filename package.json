@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.ibm.com/digital-innovation-lab/searchlight"
+    "url": "https://www.github.com/dfrsol/hapi-starter-kit"
   },
   "bugs": {
-    "url": "https://github.ibm.com/digital-innovation-lab/searchlight/issues"
+    "url": "https://www.github.com/dfrsol/hapi-starter-kit/issues"
   },
   "contributors": [
     "Josh Buselt"
